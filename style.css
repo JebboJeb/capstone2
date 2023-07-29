@@ -219,7 +219,7 @@
   #facts{
     display:grid;
     grid-template-columns: 80%;
-    grid-template-rows: 200px 70px 100px 200px 200px 70px;
+    grid-template-rows: 200px 70px 100px 200px 200px 100px;
   }
 
   
