@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #france{
+            height: 600px;
+            width: 900px;
+            background-color: darkblue;
+            position: relative;
+            border: 5px solid black;
+        }
+        #france > div{
+            height: 100%;
+            width: 300px;
+            background-color: white;
+            position: absolute;
+            left: 300px;
+        }
+        #france > div > div{
+            height: 100%;
+            width: 300px;
+            background-color: red;
+            position: absolute;
+            left: 300px;
+        }
+        p{
+            color: black;
+            font-weight: bold;
+            text-align: center;
+            padding: 0;
+            position: absolute;
+            font-size: 7rem;
+            right: 270px;
+            top: 125px;
+        }
+    </style>
+</head>
+<body><div id="france">
+    <div>
+        <div>
+            <p>France!</p>
+        </div>
+    </div>
+</div>
+    
+</body>
+</html>

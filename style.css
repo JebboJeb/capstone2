@@ -1,0 +1,235 @@
+  #facepic{
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    height: 500px;
+    margin-top: 10px;
+  }
+  .josiah{
+    border-radius: 10px;
+    border: 5px solid deepskyblue;
+  }
+  
+  .d-block.mx-auto.mb-4{
+    border-radius: 10px;
+    border: 4px solid black;
+  }
+  
+  @media all and (max-width: 800px) {
+    .d-block.mx-auto.mb-4{
+      width: 350px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+  @media all and (max-width: 600px) {
+     #facepic{
+     width: 400px;
+     height: 200px;
+    }
+    
+  }
+  #info{
+    display: grid;
+    margin-top: 25px;
+    width: 700px;
+    gap: 10px;
+    border-radius: 10px;
+    grid-template-columns: 250px 400px;
+    grid-template-rows: repeat(250px 400px);
+
+  }
+  .column1, .column2, .column3{
+    background-color: deepskyblue;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 4px solid black;
+    
+  }
+  .column1 > .face{
+    border-radius: 50%;
+    border: 5px solid lightskyblue;
+    margin-left: 2rem;
+    margin-top: 4rem;
+  }
+  #work{
+    display: grid;
+    margin-top: 25px;
+    width: 500px;
+    grid-template-columns: 100%;
+    grid-template-rows: 500px;
+  }
+  @media (max-width: 650px){
+    #info{
+      display:grid;
+      width: 100%;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(1fr);
+    }
+    .column1{
+      order: 1;
+    }
+    .column2{
+      order: 2;
+    }
+    .empty{
+      order: 3;
+    }
+    .column1 > .face{
+      margin-bottom: .5rem;
+      margin-top: .5rem;
+      height: 150px;
+      margin-left: 33%;
+      
+    }
+
+  }
+  .project{
+    border:3px solid black;
+    border-radius: 10px;
+  }
+  .card.shadow-sm{
+    background-color: deepskyblue;
+    border-radius: 10px;
+  }
+  h2{
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px;
+    text-align: center;
+  }
+  .sportstitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+#bball{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row: 1fr 1fr;
+  gap: 20px;
+}
+.spopic1, .spopic3, .spopic5, .facts{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 4px solid black;
+  background-color: deepskyblue;
+}
+.one, .three, .five{
+  border-radius: 10px;
+  border: 4px solid black;
+}
+.spinfo2, .spinfo4,.spinfo6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: deepskyblue;
+  border: 4px solid black;
+  border-radius: 10px;
+}
+#facts{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 400px 400px;
+  grid-auto-columns: 1fr 1fr;
+  grid-auto-rows: 1fr 1fr;
+  gap: 20px;
+}
+.facts{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kids{
+  border-radius: 10px;
+  border:4px solid black ;
+}
+.info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: deepskyblue;
+  border: 4px solid black;
+  border-radius: 10px;
+}
+@media (max-width:991px){
+  #bball{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .spopic1{
+    order: 1;
+  }
+  .spinfo2{
+    order: 2;
+  }
+  .spopic3{
+    order: 3;
+  }
+  .spinfo4{
+    order: 4;
+  }
+  .spopic5{
+    order: 5;
+  }
+  .spinfo6{
+    order: 6;
+  }
+  #facts{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .kids{
+    height: 300px;
+  }
+
+}
+@media (max-width:769px){
+  #bball{
+    display:grid;
+    grid-template-columns: 80%;
+    grid-template-rows: 200px 70px 200px 70px 200px 70px;
+  }
+  .spopic1{
+    order: 1;
+  }
+  .one, .three, .five, .kids{
+    height: 200px;
+    border: 4px solid black;
+    border-radius: 10px;
+  }
+  .spinfo2{
+    order: 2;
+  }
+  .spopic3{
+    order: 3;
+  }
+  .spinfo4{
+    order: 4;
+  }
+  .spopic5{
+    order: 5;
+  }
+  .spinfo6{
+    order: 6;
+  }
+  #facts{
+    display:grid;
+    grid-template-columns: 80%;
+    grid-template-rows: 200px 70px 100px 200px 200px 70px;
+  }
+
+  
+}
+.row.p-4.pb-0.pe-lg-0.pt-lg-5.align-items-center.rounded-4.border.shadow-lg{
+  background-color: deepskyblue;
+}
+.container.my-5{
+  border: 4px solid black;
+  border-radius: 20px;
+}
+
+  

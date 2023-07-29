@@ -1,0 +1,35 @@
+html{
+    background-color: black;
+  }
+    h1{
+         text-transform: uppercase;
+         font-size: 3rem;
+    }
+    .poster{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 100px;
+        color: white;
+        font-family: 'Libre Baskerville', serif;
+        text-align: center;
+    }
+    .motivational{
+    border: 5px solid white;
+    width: 100%;
+ }
+ h2{
+    text-transform: uppercase;
+    font-size: 3rem;
+ }
+ .poster2{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    color: blue;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+ }
+ .aha{
+    width: 100%;
+    border: 5px solid blue;
+ }
